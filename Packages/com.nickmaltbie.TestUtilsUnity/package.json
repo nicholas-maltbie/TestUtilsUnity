@@ -22,6 +22,9 @@
       "path": "Samples~/ExampleSample"
     }
   ],
+  "dependencies": {
+    "com.unity.inputsystem": "1.0.0"
+  },
   "license": "MIT",
   "type": "library"
 }
