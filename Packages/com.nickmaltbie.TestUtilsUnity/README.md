@@ -74,7 +74,7 @@ manager will be able to download it from the registry at
 
 ```json
 "dependencies": {
-  "com.nickmaltbie.TestUtilsUnity": "1.0.0",
+  "com.nickmaltbie.TestUtilsUnity": "0.0.0",
 }
 ```
 
