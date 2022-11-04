@@ -24,7 +24,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.TestTools;
 
-namespace nickmaltbie.TestUtilsUnity.TestCommon
+namespace nickmaltbie.TestUtilsUnity.Tests.TestCommon
 {
     /// <summary>
     /// Basic unity test base class.

@@ -3,10 +3,8 @@
     "rootNamespace": "nickmaltbie.TestUtilsUnity.Tests.EditMode",
     "references": [
         "nickmaltbie.TestUtilsUnity",
-        "nickmaltbie.TestUtilsUnity.TestCommon",
-        "Unity.InputSystem.TestFramework",
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "nickmaltbie.TestUtilsUnity.Tests.TestCommon",
+        "Unity.InputSystem.TestFramework"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
