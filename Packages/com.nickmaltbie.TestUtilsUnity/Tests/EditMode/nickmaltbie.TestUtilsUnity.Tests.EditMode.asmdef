@@ -1,0 +1,26 @@
+{
+    "name": "nickmaltbie.TestUtilsUnity.Tests.EditMode",
+    "rootNamespace": "nickmaltbie.TestUtilsUnity.Tests.EditMode",
+    "references": [
+        "nickmaltbie.TestUtilsUnity",
+        "nickmaltbie.TestUtilsUnity.TestCommon",
+        "Unity.InputSystem.TestFramework",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

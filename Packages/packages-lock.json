@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "com.nickmaltbie.templateunitypackage": {
-      "version": "file:com.nickmaltbie.TemplateUnityPackage",
+    "com.nickmaltbie.testutilsunity": {
+      "version": "file:com.nickmaltbie.TestUtilsUnity",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
@@ -66,6 +66,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.4.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.nuget.newtonsoft-json": {
