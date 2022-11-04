@@ -18,7 +18,7 @@
 
 using UnityEngine;
 
-namespace nickmaltbie.OpenKCC.Utils
+namespace nickmaltbie.TestUtilsUnity
 {
     /// <summary>
     /// Interface for managing static information from unity classes.
