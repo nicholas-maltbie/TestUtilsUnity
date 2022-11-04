@@ -19,7 +19,7 @@
 using NUnit.Framework;
 using UnityEngine;
 
-namespace nickmaltbie.TestUtilsUnity.TestCommon
+namespace nickmaltbie.TestUtilsUnity.Tests.TestCommon
 {
     /// <summary>
     /// Unity test utilities.

@@ -1,11 +1,12 @@
 {
-    "name": "nickmaltbie.TestUtilsUnity.TestCommon",
-    "rootNamespace": "nickmaltbie.TestUtilsUnity.TestCommon",
+    "name": "nickmaltbie.TestUtilsUnity.Tests.TestCommon",
+    "rootNamespace": "nickmaltbie.TestUtilsUnity.Tests.TestCommon",
     "references": [
         "Unity.InputSystem",
-        "Unity.InputSystem.TestFramework",
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "Unity.InputSystem.TestFramework"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
     ],
     "includePlatforms": [
         "Editor"
