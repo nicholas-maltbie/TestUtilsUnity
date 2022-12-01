@@ -2,15 +2,14 @@
     "name": "nickmaltbie.TestUtilsUnity.Tests.TestCommon",
     "rootNamespace": "nickmaltbie.TestUtilsUnity.Tests.TestCommon",
     "references": [
+        "nickmaltbie.TestUtilsUnity",
         "Unity.InputSystem",
         "Unity.InputSystem.TestFramework"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

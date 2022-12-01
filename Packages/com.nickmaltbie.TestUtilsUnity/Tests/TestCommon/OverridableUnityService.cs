@@ -16,29 +16,38 @@
 // ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-namespace nickmaltbie.TestUtilsUnity
+using UnityEngine;
+
+namespace nickmaltbie.TestUtilsUnity.Tests.TestCommon
 {
     /// <summary>
-    /// Interface for managing static information from unity classes.
+    /// Overridable unity service for the purposes of testing.
     /// </summary>
-    public interface IUnityService
+    public class OverridableUnityService : IUnityService
     {
-        /// <summary>
-        /// Get the current delta time in seconds between this and last frame
-        /// </summary>
-        /// <returns>The current delta time between this and the previous frame</returns>
-        float deltaTime { get; }
+        private float? _deltaTime;
+        private float? _time;
+        private float? _fixedDeltaTime;
 
-        /// <summary>
-        /// Get the current fixed delta time for physics based update
-        /// </summary>
-        /// <returns>the delta time shown by the fixed delta time</returns>
-        float fixedDeltaTime { get; }
+        /// <inheritdoc/>
+        public float deltaTime
+        {
+            get => _deltaTime ?? Time.deltaTime;
+            set => _deltaTime = value;
+        }
 
-        /// <summary>
-        /// Gets the current time in seconds since start of the game
-        /// </summary>
-        /// <value>Time in seconds since the start of the game</value>
-        float time { get; }
+        /// <inheritdoc/>
+        public float time
+        {
+            get => _time ?? Time.time;
+            set => _time = value;
+        }
+
+        /// <inheritdoc/>
+        public float fixedDeltaTime
+        {
+            get => _fixedDeltaTime ?? Time.fixedDeltaTime;
+            set => _fixedDeltaTime = value;
+        }
     }
 }
