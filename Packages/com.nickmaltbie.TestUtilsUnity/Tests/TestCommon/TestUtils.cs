@@ -16,6 +16,8 @@
 // ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+using System;
+using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
 
@@ -92,6 +94,38 @@ namespace nickmaltbie.TestUtilsUnity.Tests.TestCommon
                     Assert.Fail($"Found invalid bound:{bound} for {nameof(AssertInBounds)}");
                     break;
             }
+        }
+
+        /// <summary>
+        /// Wait until a condition is met for a given number of seconds.
+        /// </summary>
+        /// <param name="verify">What needs to be verified.</param>
+        /// <param name="waitInterval">Wait interval in seconds.</param>
+        /// <param name="iterations">Number of intervals to wait for.</param>
+        /// <returns>Iterator of events.</returns>
+        public static IEnumerator WaitUntil(Func<bool> verify, float waitInterval = 0.1f, int iterations = 100)
+        {
+            return WaitUntil(verify, new WaitForSeconds(waitInterval), iterations);
+        }
+
+        /// <summary>
+        /// Wait until a condition is meet.
+        /// </summary>
+        /// <param name="verify">What needs to be verified.</param>
+        /// <param name="toYield">Event to yield.</param>
+        /// <param name="times">Number of times to yield iterator.</param>
+        /// <returns>Iterator of events.</returns>
+        public static IEnumerator WaitUntil(Func<bool> verify, object toYield, int times)
+        {
+            bool satisfied = false;
+
+            for (int iter = 0; iter < times && !satisfied; iter++)
+            {
+                satisfied = verify();
+                yield return toYield;
+            }
+
+            Assert.IsTrue(satisfied);
         }
     }
 }
