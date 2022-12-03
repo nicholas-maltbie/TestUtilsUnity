@@ -1,0 +1,575 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TestBase
+   | Test Utils Unity Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TestBase
+   | Test Utils Unity Documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase">
+  
+  
+  <h1 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase" class="text-break">Class TestBase
+  </h1>
+  <div class="markdown level0 summary"><p>Basic unity test base class.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">TestBase</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="nickmaltbie.TestUtilsUnity.Tests.TestCommon.html">nickmaltbie.TestUtilsUnity.Tests.TestCommon</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TestBase : InputTestFixture</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_createdDevices" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.createdDevices">createdDevices</h4>
+  <div class="markdown level1 summary"><p>List of created input devices.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;InputDevice&gt; createdDevices</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">InputDevice</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_gameObjects" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.gameObjects">gameObjects</h4>
+  <div class="markdown level1 summary"><p>List of game objects created as part of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;GameObject&gt; gameObjects</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_scriptableObjects" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.scriptableObjects">scriptableObjects</h4>
+  <div class="markdown level1 summary"><p>List of scriptable objects created as part of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected List&lt;ScriptableObject&gt; scriptableObjects</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">ScriptableObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_CreateGameObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.CreateGameObject*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_CreateGameObject" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.CreateGameObject">CreateGameObject()</h4>
+  <div class="markdown level1 summary"><p>Create a game object and save it to cleanup at the end of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject CreateGameObject()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><p>Created game object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_CreateGameObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.CreateGameObject*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_CreateGameObject_GameObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.CreateGameObject(GameObject)">CreateGameObject(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Create a game object and save it to cleanup at the end of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GameObject CreateGameObject(GameObject original)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">original</span></td>
+        <td><p>Original object to create from base.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><p>Created game object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_CreateScriptableObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.CreateScriptableObject*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_CreateScriptableObject__1" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.CreateScriptableObject``1">CreateScriptableObject&lt;E&gt;()</h4>
+  <div class="markdown level1 summary"><p>Create a scriptable object and register it as part of the test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected E CreateScriptableObject&lt;E&gt;()
+    where E : ScriptableObject</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">E</span></td>
+        <td><p>Created scriptable object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">E</span></td>
+        <td><p>Type of scriptable object to create.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_OneTimeSetUp_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.OneTimeSetUp*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_OneTimeSetUp" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.OneTimeSetUp">OneTimeSetUp()</h4>
+  <div class="markdown level1 summary"><p>Setup a basic test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OneTimeSetUp()</code></pre>
+  </div>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_RegisterGameObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.RegisterGameObject*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_RegisterGameObject_GameObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.RegisterGameObject(GameObject)">RegisterGameObject(GameObject)</h4>
+  <div class="markdown level1 summary"><p>Register a game object as part of a test to cleanup once the test is completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RegisterGameObject(GameObject go)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td><span class="parametername">go</span></td>
+        <td><p>Game object to register.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_RegisterInputDevice_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.RegisterInputDevice*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_RegisterInputDevice_InputDevice_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.RegisterInputDevice(InputDevice)">RegisterInputDevice(InputDevice)</h4>
+  <div class="markdown level1 summary"><p>Register an InputDevice as part of a test to cleanup once the test is completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RegisterInputDevice(InputDevice device)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">InputDevice</span></td>
+        <td><span class="parametername">device</span></td>
+        <td><p>InputDevice to register.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_RegisterScriptableObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.RegisterScriptableObject*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_RegisterScriptableObject_ScriptableObject_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.RegisterScriptableObject(ScriptableObject)">RegisterScriptableObject(ScriptableObject)</h4>
+  <div class="markdown level1 summary"><p>Register a ScriptableObject as part of a test to cleanup once the test is completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void RegisterScriptableObject(ScriptableObject so)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ScriptableObject</span></td>
+        <td><span class="parametername">so</span></td>
+        <td><p>ScriptableObject to register.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_SetupInputDevice_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.SetupInputDevice*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_SetupInputDevice__1" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.SetupInputDevice``1">SetupInputDevice&lt;E&gt;()</h4>
+  <div class="markdown level1 summary"><p>Setup an input device and given action map.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public (E, PlayerInput, InputActionMap) SetupInputDevice&lt;E&gt;()
+    where E : InputDevice</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetuple-3">(T1, T2, T3)</a>&lt;E, <span class="xref">PlayerInput</span>, <span class="xref">InputActionMap</span>&gt;</td>
+        <td><p>Tuple of the input device, player input, and created action map.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">E</span></td>
+        <td><p>Type of device craeted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_TearDown_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.TearDown*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_TearDown" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.TearDown">TearDown()</h4>
+  <div class="markdown level1 summary"><p>Cleanup created objects in the basic test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void TearDown()</code></pre>
+  </div>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_TestDirections_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.TestDirections*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_TestDirections" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.TestDirections">TestDirections()</h4>
+  <div class="markdown level1 summary"><p>Set of basic directions for tests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Vector3&gt; TestDirections()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_UnityTearDown_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.UnityTearDown*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_UnityTearDown" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.UnityTearDown">UnityTearDown()</h4>
+  <div class="markdown level1 summary"><p>Cleanup created objects in the basic test.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void UnityTearDown()</code></pre>
+  </div>
+  
+  
+  <a id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_ValidateDrawGizmo_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.ValidateDrawGizmo*"></a>
+  <h4 id="nickmaltbie_TestUtilsUnity_Tests_TestCommon_TestBase_ValidateDrawGizmo_Action_System_Int32_System_Boolean_" data-uid="nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.ValidateDrawGizmo(Action,System.Int32,System.Boolean)">ValidateDrawGizmo(Action, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Validate that given gizmos are drawn.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator ValidateDrawGizmo(Action GizmoAction, int maxIter = 60, bool assertDrawn = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">GizmoAction</span></td>
+        <td><p>Gizmo action to validate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">maxIter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">assertDrawn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Test Utils Unity Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

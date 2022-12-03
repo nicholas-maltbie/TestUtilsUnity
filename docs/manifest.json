@@ -1,0 +1,308 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "latest/api/*": {
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://nickmaltbie.com/TestUtilsUnity/docs/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/TestUtilsUnity/TestUtilsUnity/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LICENSE.txt",
+      "output": {
+        "resource": {
+          "relative_path": "LICENSE.txt"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.IUnityService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.IUnityService.html",
+          "hash": "3CiYGldvfVfIYnoAfHr4bRNHoPQAZ5U7a5ScyBXSXx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.EditMode.Utils.UnityServiceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.EditMode.Utils.UnityServiceTests.html",
+          "hash": "dZLuovGHkhNjnuvca0l8aTrLVj50AV6L3RyI4Mg1rPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.EditMode.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.EditMode.Utils.html",
+          "hash": "2Z+WgAr+AogfODhGJLYrJkS0TOuFjjvo+S/irNYt8dA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.OverridableUnityService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.OverridableUnityService.html",
+          "hash": "NE32jCDeDGZucRvD4eH2Mkik/HMf68ZPj6GFOu62k+c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.GizmoValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.GizmoValidator.html",
+          "hash": "dyOsDLefiqquJ/YNbcwb9Ii8Sbocz53SgXZTX0khcMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestBase.html",
+          "hash": "ydy2TwaP/FctA3cqXF2+Jai29+dQBM/PE1rDzMZrvSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestUtils.BoundRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestUtils.BoundRange.html",
+          "hash": "kQkSU1b/pJ7lBh7jLxweAGGpeNtkt8Flt3YShPaako8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.TestUtils.html",
+          "hash": "xhP7UkpHivBRHx59foaJJ0xoUJRjKy37gM1bKKj/5o0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.Tests.TestCommon.html",
+          "hash": "gTAxbQOJf7QwDNOwIJlXa1j7rvzZjxdbi2guGp3psLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.UnityService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.UnityService.html",
+          "hash": "wo7qYYcykAtNuopPgmzOH4lm8Jyp7RqjWU/iD+ljiNs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/nickmaltbie.TestUtilsUnity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/nickmaltbie.TestUtilsUnity.html",
+          "hash": "RLaAAJLCTv8r8fZLbpYBOM9qQtLjxqya/jSoxB+OsrA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "5ZGO9e3dczyBRzjFxfBoLCQerz0vLSXY1qkTC2FMmH4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/CHANGELOG.html",
+          "hash": "FUrKqI7uonilIcKmg0RoHLBsUyjODWe7mYTh4iRtrBg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html",
+          "hash": "1q1fO7/YyPEGJ89UlRVsP2/QXB8oQ3/9CvSsb1tfrWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "FjeDTQdONIC0DoTgqDlvGuA9rH5QmBc1ROBGgSdw214="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/introduction.html",
+          "hash": "Yvgoxl2rsQiLoVPgBNEZQvy0zBiSkkwDpkHC3xano0w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html",
+          "hash": "m2S1Yi8n1lPXDZKT5Jv0VY0xWYHT7GRxoxwMIyyIMSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Ctn7W0h3n2CKfO2IIM7VzbNBHIy4XSorNwkplc5bkfo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
