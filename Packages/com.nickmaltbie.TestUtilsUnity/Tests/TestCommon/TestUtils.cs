@@ -118,7 +118,7 @@ namespace nickmaltbie.TestUtilsUnity.Tests.TestCommon
         public static IEnumerator WaitUntil(Func<bool> verify, object toYield, int times)
         {
             bool satisfied = false;
-            
+
             for (int iter = 0; iter < times && !satisfied; iter++)
             {
                 satisfied = verify();
