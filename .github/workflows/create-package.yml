@@ -20,8 +20,8 @@ on:
         required: false
 
 jobs:
-  create-openkcc-package:
-    name: Create OpenKCC package ${{ matrix.name }}
+  create-testutilsunity-package:
+    name: Create TestUtilsUnity package ${{ matrix.name }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
