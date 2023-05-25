@@ -8,11 +8,10 @@ on:
 
 jobs:
   tests-validation:
-    strategy:
-      fail-fast: false
     name: Test Validation for Pull Request ${{ matrix.version }}
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         include:
           - version: 2022.1.16f1
