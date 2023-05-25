@@ -40,7 +40,7 @@ namespace nickmaltbie.TestUtilsUnity.Tests.EditMode.Utils
         [Test]
         public void Validate_MockUnityService()
         {
-            MockUnityService mock = new MockUnityService();
+            var mock = new MockUnityService();
             Assert.AreEqual(UnityService.Instance.deltaTime, 0);
             Assert.AreEqual(UnityService.Instance.fixedDeltaTime, Time.fixedDeltaTime);
             Assert.AreEqual(UnityService.Instance.time, 0);
@@ -48,7 +48,7 @@ namespace nickmaltbie.TestUtilsUnity.Tests.EditMode.Utils
             mock.deltaTime = 1.0f;
             mock.fixedDeltaTime = 0.1f;
             mock.time = 10.0f;
-            
+
             Assert.AreEqual(mock.deltaTime, 1.0f);
             Assert.AreEqual(mock.fixedDeltaTime, 0.1f);
             Assert.AreEqual(mock.time, 10.0f);
