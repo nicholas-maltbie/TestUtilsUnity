@@ -15,16 +15,16 @@ jobs:
       matrix:
         include:
           - version: 2022.1.16f1
-            package_path: ./Packages/com.nickmaltbie.TestUtilsUnity
+            project_path: "."
             post_comment: true
           - version: 2021.3.25f1
-            package_path: ./Versioning/TestUtilsUnity_2021.3
+            project_path: ./Versioning/TestUtilsUnity_2021.3
             post_comment: false
           - version: 2020.3.48f1
-            package_path: ./Versioning/TestUtilsUnity_2021.3
+            project_path: ./Versioning/TestUtilsUnity_2021.3
             post_comment: false
           - version: 2019.4.40f1
-            package_path: ./Versioning/TestUtilsUnity_2021.3
+            project_path: ./Versioning/TestUtilsUnity_2021.3
             post_comment: false
     steps:
       - uses: actions/checkout@v3
@@ -41,6 +41,7 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           unityVersion: ${{ matrix.version }}
+          projectPath: ${{ matrix.project_path }}
           testMode: All
           checkName: All Test Results
           customParameters: -testFilter "nickmaltbie.TestUtilsUnity.Tests.*" -nographics
