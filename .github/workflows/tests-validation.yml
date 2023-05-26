@@ -33,6 +33,8 @@ jobs:
       - uses: ./.github/actions/unity-library-cache
         with:
           target_platform: WebGL
+          library_directory: ${{ matrix.project_path }}/Library
+          unity_version:  ${{ matrix.version }}
 
       - name: Run All Tests for Unity ${{ matrix.version }}
         id: tests
