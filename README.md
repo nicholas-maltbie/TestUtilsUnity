@@ -14,13 +14,13 @@ Install the latest version of the project by importing a project via git
 at this URL:
 `https://github.com/nicholas-maltbie/TestUtilsUnity.git#release/latest`
 
-If you want to reference a specific tag of the project such as version `v1.0.0`,
-add a `release/#v1.0.0` to the end of the git URL to download the package
-from th auto-generated branch for that release. An example of importing `v1.0.0`
+If you want to reference a specific tag of the project such as version `v1.1.0`,
+add a `release/#v1.1.0` to the end of the git URL to download the package
+from th auto-generated branch for that release. An example of importing `v1.1.0`
 would look like this:
 
 ```text
-https://github.com/nicholas-maltbie/TestUtilsUnity.git#release/v0.1.0
+https://github.com/nicholas-maltbie/TestUtilsUnity.git#release/v1.1.0
 ```
 
 To use the latest release, simply reference:
@@ -74,20 +74,20 @@ manager will be able to download it from the registry at
 
 ```json
 "dependencies": {
-  "com.nickmaltbie.TestUtilsUnity": "0.0.1",
+  "com.nickmaltbie.TestUtilsUnity": "1.1.0",
 }
 ```
 
 ### Tests
 
 If you wish to include the testing code for this project, make sure to add
-the `com.nickmaltbie.TestUtilsUnity` to the testables
+the `com.nickmaltbie.TestUtilsUnity` to the `testables`
 of the project manifest.
 
 ```json
-  "testables": [
-    "com.nickmaltbie.TestUtilsUnity"
-  ]
+"testables": [
+  "com.nickmaltbie.TestUtilsUnity"
+]
 ```
 
 ## Demo

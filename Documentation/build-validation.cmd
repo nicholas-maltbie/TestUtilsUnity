@@ -7,7 +7,7 @@ xcopy /E /S /Y %~dp0\..\Demo %~dp0\Demo\
 
 @REM Generate website with docfx
 echo Building code metadata
-docfx metadata %~dp0\docfx.json --warningsAsErrors --logLevel verbose --force && (
+dotnet docfx metadata %~dp0\docfx-validation.json --warningsAsErrors --logLevel verbose --force && (
     echo Successfuly generated metadata for C# code formatting
 ) || (
     echo Could not properly generate metadata for C# code formatting
@@ -15,9 +15,9 @@ docfx metadata %~dp0\docfx.json --warningsAsErrors --logLevel verbose --force &&
 )
 
 echo Generating website
-docfx build %~dp0\docfx.json --warningsAsErrors --logLevel verbose && (
+dotnet docfx build %~dp0\docfx-validation.json -t default,%~dp0\templates\custom --warningsAsErrors --logLevel verbose && (
     echo Successfuly generated website for documentation
 ) || (
-    echo Could not properly website for documentation
+    echo Could not properly generate website for documentation
     exit /b 1
 )
