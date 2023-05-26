@@ -84,7 +84,7 @@ jobs:
 
       - name: Add PR Comment
         uses: mshick/add-pr-comment@v1
-        if: ${{ github.event_name == 'pull_request' }} && ${{ github.event.pull_request.merged == false }} && ${{ matrix.post_comment }}
+        if: github.event.pull_request.merged == true && matrix.post_comment
         with:
           message: |
             Test Coverage Results for ${{ matrix.testMode }}:
