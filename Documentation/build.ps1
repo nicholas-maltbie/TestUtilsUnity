@@ -32,7 +32,6 @@ foreach ($tag in $(git tag | Sort-Object -Descending { $_.substring(1) -as [vers
 Write-Host "Setting up website and copying files"
 Copy-Item -Force "$project_dir\README.md" "$dir\index.md"
 Copy-Item -Force "$project_dir\LICENSE.txt" "$dir\LICENSE.txt"
-Copy-Item -Recurse -Force "$project_dir\Demo" "$dir\Demo\"
 Copy-Item -Force "$project_dir\Packages\com.nickmaltbie.TestUtilsUnity\CHANGELOG.md" "$dir\changelog\CHANGELOG.md"
 
 $paramFile = Get-Content "$dir\docfx.json" | ConvertFrom-Json
@@ -73,10 +72,6 @@ foreach ($tag in $versions)
     if (Test-Path "$project_dir\LICENSE.txt")
     {
         Copy-Item -Force "$project_dir\LICENSE.txt" "$dir\LICENSE.txt" > $null
-    }
-    if (Test-Path "$project_dir\Demo")
-    {
-        Copy-Item -Recurse -Force "$project_dir\Demo" "$dir\Demo\" > $null
     }
     if (Test-Path "$project_dir\Packages\com.nickmaltbie.TestUtilsUnity\CHANGELOG.md")
     {
