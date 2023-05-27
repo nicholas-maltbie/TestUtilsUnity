@@ -59,12 +59,11 @@ jobs:
         run: git lfs pull
         shell: bash
 
-      - name: Use Node.js 18
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '14.x'
           registry-url: https://registry.npmjs.org/
-
+      - run: npm ci
       - name: Publish Package to NpmJS
         if: "${{ inputs.release-publish }}"
         run: npm publish
