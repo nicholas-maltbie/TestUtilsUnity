@@ -72,3 +72,4 @@ jobs:
       
       # Restore back to original branch
       - uses: actions/checkout@v3
+        if: always()
